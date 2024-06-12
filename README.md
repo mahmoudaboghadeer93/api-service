@@ -12,7 +12,7 @@
    docker push mhmud/api_app:v1
 ```
 
-3️⃣ deploy the postgres DB , the app on K8s .
+3️⃣ deploy the postgres DB , the app on K8s using our [**chart***](https://artifacthub.io/packages/helm/api-app/api-app-chart).
 
 ```shell
    helm repo add api-app https://mahmoudaboghadeer93.github.io/api-app/charts
