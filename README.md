@@ -31,17 +31,18 @@
 
    - Create new user using this endpoint (http://localhost:4000/api/flask/users) using POST Request on Postman like this:
 
-<img width="839" alt="Screenshot 2024-06-12 at 1 28 50 PM" src="https://github.com/mahmoudaboghadeer93/api-app/assets/69244659/b2819020-3b3c-4366-b83f-fd992150ac7d">
+<img width="839" alt="Screenshot 2024-06-12 at 1 28 50 PM" src="https://github.com/mahmoudaboghadeer93/api-service/assets/69244659/abd2f8f3-37e4-4744-9855-7c91991bae88">
+
 
 
    - Then you can list the created users using GET Request (http://localhost:4000/api/flask/users) :
 
-<img width="836" alt="Screenshot 2024-06-12 at 1 36 39 PM" src="https://github.com/mahmoudaboghadeer93/api-app/assets/69244659/02b290e0-53ba-4309-b36c-23f23a6d8d7d">
+<img width="836" alt="Screenshot 2024-06-12 at 1 36 39 PM" src="https://github.com/mahmoudaboghadeer93/api-service/assets/69244659/3a06c21d-bb34-468c-8a97-bb57bee40b37">
 
 
    - Also you can get the list of users from DB using:
 
-<img width="968" alt="Screenshot 2024-06-12 at 1 39 34 PM" src="https://github.com/mahmoudaboghadeer93/api-app/assets/69244659/fc6e52d8-2be5-4f69-aa4e-e6b6f8cafe08">
+<img width="968" alt="Screenshot 2024-06-12 at 1 39 34 PM" src="https://github.com/mahmoudaboghadeer93/api-service/assets/69244659/463ab117-fb5e-42f9-a55f-d54d42ca2e7d">
 
 
    - update and delete a user:
@@ -49,6 +50,9 @@
 
       - You can delete a user, but making a DELETE request to http://localhost:4000/api/flask/users/3
 
-<img width="800" alt="Screenshot 2024-06-12 at 1 43 37 PM" src="https://github.com/mahmoudaboghadeer93/api-app/assets/69244659/756cabf2-1681-4129-a9f7-0cbdf747f0ed">
+<img width="800" alt="Screenshot 2024-06-12 at 1 43 37 PM" src="https://github.com/mahmoudaboghadeer93/api-service/assets/69244659/31a637ce-60be-4d06-bc54-f57f1a8b3723">
+
+
+🎉 We are done. 🎉
 
          
