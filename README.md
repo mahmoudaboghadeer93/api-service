@@ -11,23 +11,23 @@
 ```shell
    docker push mhmud/api_app:v1
 ```
-3️⃣ use this image inside the deployment file for our API-APP
 
-4️⃣ deploy the postgres DB , the app on K8s .
+3️⃣ deploy the postgres DB , the app on K8s .
 
 ```shell
-   cd k8s-yaml/
-   kubectl -n test apply -f postgres/
-   kubectl -n test apply -f api-app/
+   helm repo add api-app https://mahmoudaboghadeer93.github.io/api-app/charts
+   helm install ${Release_Name} --namespace ${Namespace_Name} api-app/api-app-chart --version 0.1.0 \
+   --set image.repository=mhmud/api_app \
+   --set image.tag=v1
 ```
 
-5️⃣ Test the our APP :
+4️⃣ Test the our APP :
    
    - make port forward for api-svc to test it locally using Postman to make HTTP requests
      
 ```shell
    kubectl -n test port-forward svc/api-app-svc 4000:4000
-```  
+```   
 
    - Create new user using this endpoint (http://localhost:4000/api/flask/users) using POST Request on Postman like this:
 
